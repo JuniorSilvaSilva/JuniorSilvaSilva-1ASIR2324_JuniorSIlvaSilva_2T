@@ -1,0 +1,436 @@
+/* ----------------- Imports --------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap');
+/* -------------------------------------------------------------------------------- */
+
+/* ----------------- Todo el documento ----------------------------------------------*/
+* {
+	font-family: 'Poppins', sans-serif;
+}  
+
+body {
+	 background-color: #2f2f2f;
+	 
+}
+
+hr {
+	border-color: #2f2f2f;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.audio_fondo {
+	text-align: center;
+}
+
+/* ----------------- Barra de navegación --------------------------------------------*/
+nav {
+	background-color: #FF6565;
+	width: 40%;
+	border: none;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 25px;
+	flex-wrap: nowrap;
+	display: inline-block;
+}
+
+nav ul li {
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	font-size: large;
+}
+
+nav ul li a:hover {
+	color: #ff4654;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* --------------------------H1, H2, H3 y P ----------------------------------------*/
+h1 {
+	text-align: center; 
+	font-size: 50px;
+	color: #2f3136;
+}
+
+h2 {
+	margin-top: 5px;
+	margin: 8px;
+}
+
+h1,h2,h3,p {
+	color: wheat;
+}
+
+h1, h2, h3, p:hover {
+	transform: scale(1.009);
+	transition: transform 0.3s ease-in;
+	transition: transform 0.3s ease-out;
+	margin: 1.01rem auto;
+}
+
+a {
+	text-decoration: none;
+	color: #FF6565;
+}
+
+h2 a {
+	color: #FF6565;
+}
+
+h2 a:hover {
+	color: red;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* ----- Iframes (No funciona la parte comentada, de ahí que vaya como comentario)--*/
+iframe {
+	width: 100%;
+	height: 400px;
+	display: flexbox;
+	box-sizing: border-box;
+	box-shadow: #353D2F;
+}
+/* .iframes_yt {
+	border: 1px double;
+	display: inline-block;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	column-gap: 10px;
+  }
+  
+  .iframes_yt iframe {
+	width: 100%;
+	height: 300px;
+  }  */
+
+
+/* --------------------------------------------------------------------------------- */
+
+/* ------------------------------FPP y TPP ----------------------------------------- */
+
+.fpp {
+	display: inline-block;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr; 
+	column-gap: 1px;
+}
+
+.fpp * {
+	border: 0.5px solid #515B3A;
+}
+
+.tpp {
+	display: inline-block;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr; 
+	column-gap: 1px;
+}
+
+.tpp * {
+	border: 0.5px solid #515B3A;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.pubg {
+	display: block;
+	margin:0 auto ;
+}
+
+img:hover {
+	transform: scale(1.05);
+}
+
+/* -------------------------- Botón "Volver atrás" -------------------------------- */
+.ini {
+	text-align: right;
+}
+
+p.ini a {
+	font-size: 10px;
+	text-underline-position: none;
+}
+
+p.ini a:hover {
+	color: yellowgreen;
+  }
+
+/* -------------------------------------------------------------------------------- */
+
+/* ----------------- Tabla de armas-------------------------------------------------*/
+table {
+	border-color: #515B3A;
+	width: 100%;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+th {
+	color: #515B3A;
+}
+
+table td {
+	border: #353D2F 2px inset;
+	height: 2rem;
+	width: 2rem;
+}
+
+table td:hover {
+	transition: all 0.3s ease;
+	font-size: 1.2rem;
+}
+
+td a {
+	color: wheat;
+}
+/* --------------------------------------------------------------------------------*/
+
+/* ----------------- Formulario ---------------------------------------------------*/
+
+form {
+	color: #ff4654;
+}
+
+form label {
+	color: #FFFCE1;
+	margin-left: 20px;
+	margin-top: 100px;
+	padding: 50px;
+}
+form input {
+	margin-left: auto;
+}
+
+
+
+/* --------------------------------------------------------------------------------*/
+
+.otros {
+	border: yellowgreen;
+}
+
+.masjuegos {
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.masjuegos:hover {
+	transform: scale(1.1);
+}
+
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 2px;
+}
+
+.container:hover {
+	transform: scale(1.1);
+}
+
+.container h2 {
+	text-align: center;
+}
+.container h3 {
+	text-align: left;
+	text-decoration: wavy;
+	font-family: 'Arial', sans-serif;
+	color: #333; 
+}
+
+.container img {
+	max-width: 100%; 
+	margin-bottom: 20px; 
+	border-radius: 5px; 
+}
+
+.container h3:hover {
+	text-decoration: underline;
+}
+
+/* ---------------- Assets Redes Sociales------------------------------------------*/
+#sprites ul{
+	display: block;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	margin:0 auto;
+	background-color: #FF6565;
+	max-height: 36px;
+}
+
+#sprites ul li {
+	display: inline-block;
+}
+
+#sprites ul li a{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(img/sprite.png);
+	float: left;
+	background-color: #353D2F;
+	margin: 4px;
+	border: 2px solid #515B3A;
+}
+
+#sprites ul li a:hover{
+	background: url(img/sprite.png);
+	background-color: #353D2F;
+	border: 2px solid black;
+	transform:rotate(200deg);
+	transform: scale(1.15);
+	border-radius: 50px;
+}
+
+#sprites ul li a.Facebook{
+	background-position: 0px 0px;
+}
+
+#sprites ul li a.Mail{
+	background-position: -96px 0px;
+
+}
+
+#sprites ul li a.RSS{
+	background-position: -72px 0px;
+
+}
+/* ----------------------------------------------------------------------------------*/
+
+/* ------------------------- Responsive Design ------------------------------------*/
+
+/* Puntos de ruptura de dispositivos más grandes a más pequeños: */
+/* Dispositivos XXL o muy grandes de menos de 1400px (Monitores HD, laptops con pantalla grande)*/
+@media (max-width: 1399.98px) {  
+	nav {
+		background-color: #FF6565;
+		width: 50%;
+		border: 1px silver;
+		margin: 0 auto;
+		text-align: center;
+		border-radius: 20px;
+		display: flex;
+	}
+	
+	.fpp {
+		display: inline-block;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr; 
+		column-gap: 1px;
+	}
+	
+	.tpp {
+		display: inline-block;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr; 
+		column-gap: 1px;
+	}
+}
+
+/* /Dispositivos XL de menos de 1200px (Táblets pantalla grande, laptops estándar)*/
+@media (max-width: 1199.98px) {  
+	.fpp {
+		display: inline-block;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr; 
+		column-gap: 1px;
+	}
+	
+	.tpp {
+		display: inline-block;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr; 
+		column-gap: 1px;
+	}
+}
+
+
+/* Dispositivos grandes de menos de 992px (Táblets estándar, Smartphones grandes)*/
+@media (max-width: 991.98px) {  
+	.fpp {
+		display: flex;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr; 
+		column-gap: 1px;
+	}
+	
+	.tpp {
+		display: flex;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr; 
+		column-gap: 1px;
+	}
+}
+
+
+/* Dispositivos medianos 768px (Smartphones estándar, táblets pequeñas)*/
+@media (max-width: 767.98px) { 
+	.fpp {
+		display: flex;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr; 
+		column-gap: 1px;
+	}
+
+	.tpp {
+		display: flex;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr; 
+		column-gap: 1px;
+	}
+ }
+
+
+/* Dispositivos pequeños de menos de 576px (Smartphones pequeños, dispositivos con pantalla reducida)*/
+@media (max-width: 575.98px) { 
+	.fpp {
+		display: flex;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto; 
+		column-gap: 1px;
+	}
+	
+	.tpp {
+		display: flex;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto; 
+		column-gap: 1px;
+	}
+
+}
+
+
+/* ----------------------------------------------------------------------------------*/
